@@ -10,9 +10,8 @@ from skllm.config import SKLLMConfig
 from skllm.models.gpt.text2text.summarization import GPTSummarizer
 from skllm.models.gpt.classification.zero_shot import ZeroShotGPTClassifier
 from openai import OpenAI
-
-nltk.download['punkt']
-nltk.download['stopwords']
+nltk.download('punkt')
+nltk.download('stopwords'])
 
 st.set_page_config(layout='wide')
 
