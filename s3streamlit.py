@@ -15,7 +15,7 @@ nltk.download('stopwords')
 
 st.set_page_config(layout='wide')
 
-api_key = st.secrets["api_key"]#open('openaiapikey.txt').read()
+api_key = st.secrets['api_key']#open('openaiapikey.txt').read()
 SKLLMConfig.set_openai_key(api_key)
 client = OpenAI(api_key=api_key)
 ##
